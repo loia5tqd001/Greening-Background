@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # wish design:
-#./cheatgithub.sh --dates 10/10/2019 12/10/2019 15/10/2019
-#./cheatgithub.sh --from-to 10/10/2019 25/10/2019
+#./draw.sh --dates 10/10/2019 12/10/2019 15/10/2019
+#./draw.sh --from-to 10/10/2019 25/10/2019
 
 
 do_dummy_thing() {
@@ -41,7 +41,7 @@ create_commits() {
 }
 
 
-# expected: ./cheatgithub.sh [number of commits per day] [number of days]
+# expected: ./draw.sh [number of commits per day] [number of days]
 
 integer_pattern="^[0-9]+$"
 
